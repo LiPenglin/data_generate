@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" line="115" mnemonic="5" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="153046f2-5332-4073-82ce-b47f17e2f0d3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="331987208">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="11277" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="11277" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+              <folding>
+                <element signature="e#152#1571#0" />
+                <element signature="e#327#350#0" />
+                <element signature="e#330#404#0" />
+                <element signature="e#481#584#0" />
+                <element signature="e#520#584#0" />
+                <element signature="e#726#765#0" />
+                <element signature="e#724#871#0" />
+                <element signature="e#771#853#0" />
+                <element signature="e#928#1129#0" />
+                <element signature="e#1188#1263#0" />
+                <element signature="e#1190#1219#0" />
+                <element signature="e#1291#1387#0" />
+                <element signature="e#1446#1571#0" />
+                <element signature="e#1599#1982#0" />
+                <element signature="e#1651#1982#0" />
+                <element signature="e#2007#2131#0" />
+                <element signature="e#2053#2131#0" />
+                <element signature="e#2181#2243#0" />
+                <element signature="e#2218#2243#0" />
+                <element signature="e#2297#2383#0" />
+                <element signature="e#2346#2383#0" />
+                <element signature="e#2432#2518#0" />
+                <element signature="e#2481#2518#0" />
+                <element signature="e#2564#2650#0" />
+                <element signature="e#2613#2650#0" />
+                <element signature="e#2670#4011#0" />
+                <element signature="e#2886#3044#0" />
+                <element signature="e#3023#3321#0" />
+                <element signature="e#3090#3197#0" />
+                <element signature="e#3405#3632#0" />
+                <element signature="e#3472#3531#0" />
+                <element signature="e#3716#3987#0" />
+                <element signature="e#3783#3898#0" />
+                <marker date="1542195266164" expanded="false" signature="114:115" ph="..." />
+                <marker date="1542195266164" expanded="false" signature="302:346" ph="..." />
+                <marker date="1542195266164" expanded="false" signature="544:662" ph="..." />
+                <marker date="1542195266164" expanded="false" signature="658:662" ph="..." />
+                <marker date="1542195266164" expanded="false" signature="2831:2870" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>panda</find>
+      <find>get_random_ts_md5_id</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/generator/pandatv_data_generator.py" />
+        <option value="$PROJECT_DIR$/test/pandatv.py" />
+        <option value="$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py" />
+        <option value="$PROJECT_DIR$/pandatv/config.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pandatv" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pandatv_data_generator">
+    <configuration name="pandatv_anchor_data_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-generate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandatv/crawl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pandatv_data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-generate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandatv/generate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-generate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pandatv.PandatvCrawlerFacts.test_should_get_all_anchor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
+      <item itemvalue="Python.pandatv_anchor_data_crawler" />
+      <item itemvalue="Python.pandatv_data_generator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pandatv_data_generator" />
+        <item itemvalue="Python.pandatv_anchor_data_crawler" />
+        <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_pandatv_PandatvCrawlerFacts_test_should_get_all_anchor - 2018.11.12 at 18h 38m 15s.xml">
+      <configuration name="Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2509225" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3296433" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="620" height="677" id="Documentation" order="3" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="872" column="8" selection-start-line="872" selection-start-column="8" selection-end-line="872" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pandatv.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="482" column="8" selection-start-line="482" selection-start-column="8" selection-end-line="482" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandatv/config.py" />
+    <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="e#152#1571#0" />
+            <element signature="e#327#350#0" />
+            <element signature="e#330#404#0" />
+            <element signature="e#481#584#0" />
+            <element signature="e#520#584#0" />
+            <element signature="e#726#765#0" />
+            <element signature="e#724#871#0" />
+            <element signature="e#771#853#0" />
+            <element signature="e#928#1129#0" />
+            <element signature="e#1188#1263#0" />
+            <element signature="e#1190#1219#0" />
+            <element signature="e#1291#1387#0" />
+            <element signature="e#1446#1571#0" />
+            <element signature="e#1599#1982#0" />
+            <element signature="e#1651#1982#0" />
+            <element signature="e#2007#2131#0" />
+            <element signature="e#2053#2131#0" />
+            <element signature="e#2181#2243#0" />
+            <element signature="e#2218#2243#0" />
+            <element signature="e#2297#2383#0" />
+            <element signature="e#2346#2383#0" />
+            <element signature="e#2432#2518#0" />
+            <element signature="e#2481#2518#0" />
+            <element signature="e#2564#2650#0" />
+            <element signature="e#2613#2650#0" />
+            <element signature="e#2670#4011#0" />
+            <element signature="e#2886#3044#0" />
+            <element signature="e#3023#3321#0" />
+            <element signature="e#3090#3197#0" />
+            <element signature="e#3405#3632#0" />
+            <element signature="e#3472#3531#0" />
+            <element signature="e#3716#3987#0" />
+            <element signature="e#3783#3898#0" />
+            <marker date="1542195266164" expanded="false" signature="114:115" ph="..." />
+            <marker date="1542195266164" expanded="false" signature="302:346" ph="..." />
+            <marker date="1542195266164" expanded="false" signature="544:662" ph="..." />
+            <marker date="1542195266164" expanded="false" signature="658:662" ph="..." />
+            <marker date="1542195266164" expanded="false" signature="2831:2870" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
