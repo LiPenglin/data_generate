@@ -17,7 +17,7 @@ class Anchor(object):
             self=self)
 
 
-db = pymysql.connect("localhost", "root", "Aa.111222", "pandatv")
+db = pymysql.connect("localhost", "root", "1234", "pandatv")
 cursor = db.cursor()
 
 
