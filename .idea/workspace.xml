@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" line="115" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" line="119" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="153046f2-5332-4073-82ce-b47f17e2f0d3" name="Default Changelist" comment="" />
+    <list default="true" id="153046f2-5332-4073-82ce-b47f17e2f0d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,81 +19,94 @@
     <session id="331987208">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11277" />
+          <entry key="py" value="11728" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11277" />
+          <entry key="Python" value="11728" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="609">
+              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
               <folding>
-                <element signature="e#152#1571#0" />
-                <element signature="e#327#350#0" />
-                <element signature="e#330#404#0" />
-                <element signature="e#481#584#0" />
-                <element signature="e#520#584#0" />
-                <element signature="e#726#765#0" />
-                <element signature="e#724#871#0" />
-                <element signature="e#771#853#0" />
-                <element signature="e#928#1129#0" />
-                <element signature="e#1188#1263#0" />
-                <element signature="e#1190#1219#0" />
-                <element signature="e#1291#1387#0" />
-                <element signature="e#1446#1571#0" />
-                <element signature="e#1599#1982#0" />
-                <element signature="e#1651#1982#0" />
-                <element signature="e#2007#2131#0" />
-                <element signature="e#2053#2131#0" />
-                <element signature="e#2181#2243#0" />
-                <element signature="e#2218#2243#0" />
-                <element signature="e#2297#2383#0" />
-                <element signature="e#2346#2383#0" />
-                <element signature="e#2432#2518#0" />
-                <element signature="e#2481#2518#0" />
-                <element signature="e#2564#2650#0" />
-                <element signature="e#2613#2650#0" />
-                <element signature="e#2670#4011#0" />
-                <element signature="e#2886#3044#0" />
-                <element signature="e#3023#3321#0" />
-                <element signature="e#3090#3197#0" />
-                <element signature="e#3405#3632#0" />
-                <element signature="e#3472#3531#0" />
-                <element signature="e#3716#3987#0" />
-                <element signature="e#3783#3898#0" />
-                <marker date="1542195266164" expanded="false" signature="114:115" ph="..." />
-                <marker date="1542195266164" expanded="false" signature="302:346" ph="..." />
-                <marker date="1542195266164" expanded="false" signature="544:662" ph="..." />
-                <marker date="1542195266164" expanded="false" signature="658:662" ph="..." />
-                <marker date="1542195266164" expanded="false" signature="2831:2870" ph="..." />
+                <element signature="e#308#323#0" />
+                <element signature="e#311#340#0" />
+                <element signature="e#402#476#0" />
+                <element signature="e#553#656#0" />
+                <element signature="e#592#656#0" />
+                <element signature="e#712#773#0" />
+                <element signature="e#828#975#0" />
+                <element signature="e#875#957#0" />
+                <element signature="e#1032#1278#0" />
+                <element signature="e#1176#1251#0" />
+                <element signature="e#1339#1368#0" />
+                <element signature="e#1440#1536#0" />
+                <element signature="e#1748#2143#0" />
+                <element signature="e#1800#2143#0" />
+                <element signature="e#2168#2292#0" />
+                <element signature="e#2214#2292#0" />
+                <element signature="e#2342#2404#0" />
+                <element signature="e#2379#2404#0" />
+                <element signature="e#2458#2544#0" />
+                <element signature="e#2507#2544#0" />
+                <element signature="e#2593#2679#0" />
+                <element signature="e#2642#2679#0" />
+                <element signature="e#2725#2811#0" />
+                <element signature="e#2774#2811#0" />
+                <element signature="e#4283#4317#0" />
+                <marker date="1542601001002" expanded="false" signature="114:115" ph="..." />
+                <marker date="1542601001002" expanded="false" signature="295:324" ph="..." />
+                <marker date="1542601001002" expanded="false" signature="364:408" ph="..." />
+                <marker date="1542601001002" expanded="false" signature="606:724" ph="..." />
+                <marker date="1542601001002" expanded="false" signature="720:724" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+              <folding>
+                <marker date="1542601498874" expanded="true" signature="305:307" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,6 +139,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,6 +151,7 @@
         <option value="$PROJECT_DIR$/pandatv/config.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" />
+        <option value="$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" />
       </list>
     </option>
   </component>
@@ -138,6 +159,9 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -150,6 +174,23 @@
             <path>
               <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
+              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandatv_data_generator">
+  <component name="RunManager" selected="Python.pandatv_user_data_generator">
     <configuration name="pandatv_anchor_data_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-generate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,6 +263,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pandatv_user_data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-generate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandatv/generate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="data-generate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,9 +302,11 @@
       <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
       <item itemvalue="Python.pandatv_anchor_data_crawler" />
       <item itemvalue="Python.pandatv_data_generator" />
+      <item itemvalue="Python.pandatv_user_data_generator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pandatv_user_data_generator" />
         <item itemvalue="Python.pandatv_data_generator" />
         <item itemvalue="Python.pandatv_anchor_data_crawler" />
         <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
@@ -259,8 +323,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
@@ -269,7 +334,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.3296433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,13 +362,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pandatv/config.py" />
-    <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -313,47 +371,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        <state relative-caret-position="609">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding>
-            <element signature="e#152#1571#0" />
-            <element signature="e#327#350#0" />
-            <element signature="e#330#404#0" />
-            <element signature="e#481#584#0" />
-            <element signature="e#520#584#0" />
-            <element signature="e#726#765#0" />
-            <element signature="e#724#871#0" />
-            <element signature="e#771#853#0" />
-            <element signature="e#928#1129#0" />
-            <element signature="e#1188#1263#0" />
-            <element signature="e#1190#1219#0" />
-            <element signature="e#1291#1387#0" />
-            <element signature="e#1446#1571#0" />
-            <element signature="e#1599#1982#0" />
-            <element signature="e#1651#1982#0" />
-            <element signature="e#2007#2131#0" />
-            <element signature="e#2053#2131#0" />
-            <element signature="e#2181#2243#0" />
-            <element signature="e#2218#2243#0" />
-            <element signature="e#2297#2383#0" />
-            <element signature="e#2346#2383#0" />
-            <element signature="e#2432#2518#0" />
-            <element signature="e#2481#2518#0" />
-            <element signature="e#2564#2650#0" />
-            <element signature="e#2613#2650#0" />
-            <element signature="e#2670#4011#0" />
-            <element signature="e#2886#3044#0" />
-            <element signature="e#3023#3321#0" />
-            <element signature="e#3090#3197#0" />
-            <element signature="e#3405#3632#0" />
-            <element signature="e#3472#3531#0" />
-            <element signature="e#3716#3987#0" />
-            <element signature="e#3783#3898#0" />
-            <marker date="1542195266164" expanded="false" signature="114:115" ph="..." />
-            <marker date="1542195266164" expanded="false" signature="302:346" ph="..." />
-            <marker date="1542195266164" expanded="false" signature="544:662" ph="..." />
-            <marker date="1542195266164" expanded="false" signature="658:662" ph="..." />
-            <marker date="1542195266164" expanded="false" signature="2831:2870" ph="..." />
+            <element signature="e#308#323#0" />
+            <element signature="e#311#340#0" />
+            <element signature="e#402#476#0" />
+            <element signature="e#553#656#0" />
+            <element signature="e#592#656#0" />
+            <element signature="e#712#773#0" />
+            <element signature="e#828#975#0" />
+            <element signature="e#875#957#0" />
+            <element signature="e#1032#1278#0" />
+            <element signature="e#1176#1251#0" />
+            <element signature="e#1339#1368#0" />
+            <element signature="e#1440#1536#0" />
+            <element signature="e#1748#2143#0" />
+            <element signature="e#1800#2143#0" />
+            <element signature="e#2168#2292#0" />
+            <element signature="e#2214#2292#0" />
+            <element signature="e#2342#2404#0" />
+            <element signature="e#2379#2404#0" />
+            <element signature="e#2458#2544#0" />
+            <element signature="e#2507#2544#0" />
+            <element signature="e#2593#2679#0" />
+            <element signature="e#2642#2679#0" />
+            <element signature="e#2725#2811#0" />
+            <element signature="e#2774#2811#0" />
+            <element signature="e#4283#4317#0" />
+            <marker date="1542601001002" expanded="false" signature="114:115" ph="..." />
+            <marker date="1542601001002" expanded="false" signature="295:324" ph="..." />
+            <marker date="1542601001002" expanded="false" signature="364:408" ph="..." />
+            <marker date="1542601001002" expanded="false" signature="606:724" ph="..." />
+            <marker date="1542601001002" expanded="false" signature="720:724" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <marker date="1542601498874" expanded="true" signature="305:307" ph="..." />
           </folding>
         </state>
       </provider>

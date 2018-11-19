@@ -14,6 +14,10 @@ class Utils(object):
     _cursor = _db.cursor()
 
     @classmethod
+    def get_db(cls):
+        return cls._db
+
+    @classmethod
     def get_random_id(cls):
         return random.randint(1, 999)
 
@@ -151,3 +155,4 @@ def start():
 
 if __name__ == '__main__':
     start()
+    Utils.get_db().close()
