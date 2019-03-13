@@ -10,8 +10,12 @@ from config import *
 
 class Utils(object):
     _m = hashlib.md5()
-    _db = pymysql.connect("localhost", "root", "Aa.111222", "pandatv")
+    _db = pymysql.connect("localhost", "root", "1234", "pandatv")
     _cursor = _db.cursor()
+
+    @classmethod
+    def get_lib(cls):
+        return LIBS[random.randint(0, len(LIBS)-1)]
 
     @classmethod
     def get_db(cls):
@@ -34,7 +38,7 @@ class Utils(object):
 
     @classmethod
     def get_ts(cls, back=0):
-        return int(round((time.time() - back * 24 * 60 * 60) * 1000))
+        return int(round((time.time() - back * 24 * 60 * 60 - back * 60 * 60) * 1000))
 
     @classmethod
     def get_random_ip(cls):
@@ -44,6 +48,10 @@ class Utils(object):
             if i != 3:
                 ip += '.'
         return ip
+    @classmethod
+    def hello (cls):
+       return cls.get_random_ip()
+
 
     @classmethod
     def get_anchor_list(cls):
@@ -78,8 +86,9 @@ class Event(object):
         self.event = self.__event__
         self.properties = properties
         self.properties['$ip'] = Utils.get_random_ip()
+        self.properties['$lib'] = Utils.get_lib()
         self.properties['time'] = dt.now().strftime('%Y-%m-%d %H:%M:%S %f')
-        # self.project = 'pandatv_01'
+        self.project = PROJECT_NAME
 
 
 class Meta(type):
@@ -154,5 +163,9 @@ def start():
 
 
 if __name__ == '__main__':
+    tmp = input("input back day num (default 0):")
+    if tmp:
+        BACK_DAY_NUM = int(tmp)
+    print("generate event data...")
     start()
     Utils.get_db().close()

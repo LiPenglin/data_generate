@@ -8,7 +8,9 @@ ANCHOR = {
     'label_c_name': 5,
     'award_rank': 6
 }
-FILE_PREFIX = '/Users/lipenglin/tmp/pandatv/'
+FILE_PREFIX = '/Users/lipenglin/tmp/lpl_test_with_lib/'
+LIBS = ['python', 'java', 'c', 'scala', 'go']
+PROJECT_NAME = 'lpl_sa_cp'
 
-BACK_DAY_NUM = 5
-TOTAL = random.randint(3000, 5000)
+BACK_DAY_NUM = 0
+TOTAL = random.randint(30000, 50000)
