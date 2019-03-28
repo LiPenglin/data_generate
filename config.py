@@ -8,9 +8,9 @@ ANCHOR = {
     'label_c_name': 5,
     'award_rank': 6
 }
-FILE_PREFIX = '/Users/lipenglin/tmp/lpl_test_with_lib/'
+FILE_PREFIX = '/Users/lipenglin/tmp/fake_data'
 LIBS = ['python', 'java', 'c', 'scala', 'go']
-PROJECT_NAME = 'lpl_sa_cp'
+PROJECT_NAME = 'default'
 
 BACK_DAY_NUM = 0
-TOTAL = random.randint(30000, 50000)
+TOTAL = random.randint(10000, 20000)

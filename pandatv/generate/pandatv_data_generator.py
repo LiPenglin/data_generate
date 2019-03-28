@@ -2,11 +2,13 @@ import hashlib
 import json
 import time
 from datetime import datetime as dt
-
 import pymysql
 
-from config import *
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
+from config import *
 
 class Utils(object):
     _m = hashlib.md5()
@@ -74,7 +76,7 @@ class Utils(object):
 
     @classmethod
     def write(cls, name, data):
-        with open(FILE_PREFIX + name + '.dat', mode='a', encoding='utf-8') as f:
+        with open(f'{FILE_PREFIX}/{name}.dat', mode='a', encoding='utf-8') as f:
             print(json.dumps(data.__dict__), file=f)
 
 
@@ -163,9 +165,19 @@ def start():
 
 
 if __name__ == '__main__':
-    tmp = input("input back day num (default 0):")
+    day = 366
+    PROJECT_NAME = input("input project_name: ")
+    FILE_PREFIX = f'{FILE_PREFIX}/{PROJECT_NAME}'
+    if not os.path.exists(FILE_PREFIX):
+        os.makedirs(FILE_PREFIX)
+    tmp = input(f"input back day num (default 0 - {day}):")
     if tmp:
         BACK_DAY_NUM = int(tmp)
-    print("generate event data...")
-    start()
+        print(f'generate event data for {BACK_DAY_NUM}')
+        start()
+    else:
+        for i in range(day):
+            BACK_DAY_NUM = i
+            print(f'generate event data for {BACK_DAY_NUM} ...')
+            start()
     Utils.get_db().close()

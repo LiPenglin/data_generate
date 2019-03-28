@@ -21,6 +21,6 @@ def close():
 
 
 if __name__ == '__main__':
-    for i in range(1, 999):
+    for i in range(1, 9999):
         insert(get_insert_sql(i))
     close()
