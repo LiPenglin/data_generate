@@ -39,12 +39,11 @@ if __name__ == '__main__':
     num = int(input('input profile sum: '))
     project = input('input project name: ')
 
-    FILE_PREFIX = f'{FILE_PREFIX}/{project}'
     if not os.path.exists(FILE_PREFIX):
         os.makedirs(FILE_PREFIX)
 
     factory = Faker("zh_CN")
-    with open (f'{FILE_PREFIX}/profile.dat', mode='w', encoding='utf-8') as f:
+    with open (f'{FILE_PREFIX}/profile/{project}.dat', mode='w', encoding='utf-8') as f:
         for i in range(num):
             properties = {
                     "$province" : factory.province(),
