@@ -3,25 +3,22 @@ import json
 import time
 from datetime import datetime as dt
 import pymysql
+import random
 
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 from config import *
+from faker import Faker
+
+factory = Faker("zh_CN")
 
 class Utils(object):
-    _m = hashlib.md5()
-    _db = pymysql.connect("localhost", "root", "1234", "pandatv")
-    _cursor = _db.cursor()
 
     @classmethod
     def get_lib(cls):
         return LIBS[random.randint(0, len(LIBS)-1)]
-
-    @classmethod
-    def get_db(cls):
-        return cls._db
 
     @classmethod
     def get_random_id(cls):
@@ -31,12 +28,6 @@ class Utils(object):
     def get_random_ts_md5_id(cls):
         cls._m.update(str(time.time()).encode())
         return cls._m.hexdigest()
-
-    @classmethod
-    def get_anchor_by_id(cls, anchor_list, u_id):
-        for anchor in anchor_list:
-            if anchor[ANCHOR['u_id']] == u_id:
-                return anchor
 
     @classmethod
     def get_ts(cls, back=0):
@@ -50,19 +41,20 @@ class Utils(object):
             if i != 3:
                 ip += '.'
         return ip
-    @classmethod
-    def hello (cls):
-       return cls.get_random_ip()
-
 
     @classmethod
     def get_anchor_list(cls):
         anchor_list = []
-        sql = '''select * from anchor'''
-        cls._cursor.execute(sql)
-        for r in cls._cursor.fetchall():
-            if r[ANCHOR['label_e_name']] != '[]':
-                anchor_list.append(r)
+        for i in range(2000): 
+            r = {
+                'u_id': factory.md5(),
+                'nick_name': factory.name(),
+                'r_id': factory.numerify(),
+                'lable_e_name': [factory.currency_name(), factory.currency_name()],
+                'lable_c_name':  [factory.currency_name(), factory.currency_name()],
+                'award_rank': random.randint(0, 20000)
+            }
+            anchor_list.append(r)
         return anchor_list
 
     @classmethod
@@ -180,4 +172,3 @@ if __name__ == '__main__':
             BACK_DAY_NUM = i
             print(f'generate event data for {BACK_DAY_NUM} ...')
             start()
-    Utils.get_db().close()

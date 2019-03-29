@@ -13,4 +13,4 @@ LIBS = ['python', 'java', 'c', 'scala', 'go']
 PROJECT_NAME = 'default'
 
 BACK_DAY_NUM = 0
-TOTAL = random.randint(10000, 20000)
+TOTAL = random.randint(10, 20)
