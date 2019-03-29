@@ -22,7 +22,7 @@ class Utils(object):
 
     @classmethod
     def get_random_id(cls):
-        return random.randint(1, 999)
+        return factory.unix_time()
 
     @classmethod
     def get_random_ts_md5_id(cls):
@@ -45,14 +45,15 @@ class Utils(object):
     @classmethod
     def get_anchor_list(cls):
         anchor_list = []
-        for i in range(2000): 
+        for i in range(2000):
             r = {
-                'u_id': factory.md5(),
-                'nick_name': factory.name(),
-                'r_id': factory.numerify(),
-                'lable_e_name': [factory.currency_name(), factory.currency_name()],
-                'lable_c_name':  [factory.currency_name(), factory.currency_name()],
-                'award_rank': random.randint(0, 20000)
+                ANCHOR['u_id']: factory.md5(),
+                ANCHOR['nick_name']: factory.name(),
+                ANCHOR['r_id']: factory.numerify(),
+                ANCHOR['r_name']: factory.company(),
+                ANCHOR['label_e_name']: [factory.currency_name(), factory.currency_name()],
+                ANCHOR['label_c_name']:  [factory.currency_name(), factory.currency_name()],
+                ANCHOR['award_rank']: random.randint(0, 20000)
             }
             anchor_list.append(r)
         return anchor_list
@@ -70,6 +71,7 @@ class Utils(object):
     def write(cls, name, data):
         with open(f'{FILE_PREFIX}/{name}.dat', mode='a', encoding='utf-8') as f:
             print(json.dumps(data.__dict__), file=f)
+        # print(data.__dict__)
 
 
 class Event(object):
@@ -116,7 +118,6 @@ def start():
 
     id_list = []
     for i in range(TOTAL):
-        # id = Utils.get_random_ts_md5_id()
         id = Utils.get_random_id()
         id_list.append(id)
         home_page_view = HomePageView(id)
