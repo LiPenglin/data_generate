@@ -43,7 +43,11 @@ if __name__ == '__main__':
         os.makedirs(FILE_PREFIX)
 
     factory = Faker("zh_CN")
-    with open (f'{FILE_PREFIX}/profile/{project}.dat', mode='w', encoding='utf-8') as f:
+    base_path = '{FILE_PREFIX}/profile'
+    if not os.path.exists('base_path'):
+        os.path.makedirs('base_path')
+
+    with open (f'base_path/{project}.dat', mode='w', encoding='utf-8') as f:
         for i in range(num):
             properties = {
                     "$province" : factory.province(),
