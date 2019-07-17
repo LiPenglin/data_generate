@@ -8,7 +8,7 @@ ANCHOR = {
     'label_c_name': 5,
     'award_rank': 6
 }
-FILE_PREFIX = '/Users/lipenglin/tmp/fake_data'
+FILE_PREFIX = '/home/sa_cluster/lpl/data'
 LIBS = ['python', 'java', 'c', 'scala', 'go']
 PROJECT_NAME = 'default'
 

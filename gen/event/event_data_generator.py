@@ -158,8 +158,8 @@ def start():
 
 
 if __name__ == '__main__':
-    day = 366
     PROJECT_NAME = input("input project_name: ")
+    day = int(input(f"input day count:"))
     FILE_PREFIX = f'{FILE_PREFIX}/{PROJECT_NAME}'
     if not os.path.exists(FILE_PREFIX):
         os.makedirs(FILE_PREFIX)
