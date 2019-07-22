@@ -3,10 +3,9 @@ import os
 import sys
 import time
 from dataclasses import dataclass
-from config import *
 from faker import Faker
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+from config import *
 
 
 @dataclass(frozen=True)

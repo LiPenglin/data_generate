@@ -2,13 +2,11 @@ import json
 import os
 import sys
 import time
-import ids
 from datetime import datetime as dt
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-
-from config import *
 from faker import Faker
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+import ids
+from config import *
 
 
 factory = Faker("zh_CN")

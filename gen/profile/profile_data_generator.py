@@ -2,12 +2,11 @@ import json
 import os
 import sys
 import time
-
 from dataclasses import dataclass
 from faker import Faker
-from config import *
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+import ids
+from config import *
 
 
 @dataclass(frozen=True)
@@ -37,7 +36,8 @@ def get_ts():
 
 
 if __name__ == '__main__':
-    num = int(input('input profile sum: '))
+    # num = int(input('input profile sum: '))
+    num = len(ids.IDS)
     project = input('input project name: ')
 
     if not os.path.exists(FILE_PREFIX):
@@ -62,7 +62,7 @@ if __name__ == '__main__':
                 "phone_number": factory.phone_number()
             }
             profile = Profile(
-                distinct_id=factory.md5(),
+                distinct_id=ids.IDS[i],
                 ts=get_ts(),
                 project=project,
                 properties=properties)
