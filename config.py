@@ -10,8 +10,8 @@ ANCHOR = {
     'label_c_name': 5,
     'award_rank': 6
 }
-# FILE_PREFIX = '/home/sa_cluster/lpl/data'
-FILE_PREFIX = '/Users/lipenglin/tmp/data'
+FILE_PREFIX = '/home/sa_cluster/lpl/data'
+# FILE_PREFIX = '/Users/lipenglin/tmp/data'
 LIBS = ['python', 'java', 'c', 'scala', 'go']
 PROJECT_NAME = 'default'
 
