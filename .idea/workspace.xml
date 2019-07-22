@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" line="130" mnemonic="5" />
-    <bookmark url="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" line="25" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="153046f2-5332-4073-82ce-b47f17e2f0d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/event/.pandatv_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen/.crawl/.pandatv_data_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/event/.pandatv_user_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen/.crawl/.pandatv_user_data_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/event/event_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen/event/event_data_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/profile/profile_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen/profile/profile_data_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,30 +18,78 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_generate$pandatv_anchor_data_crawler.coverage" NAME="pandatv_anchor_data_crawler Coverage Results" MODIFIED="1552454205613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandatv/crawl" />
     <SUITE FILE_PATH="coverage/data_generate$pandatv_data_generator.coverage" NAME="pandatv_data_generator Coverage Results" MODIFIED="1552457958465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandatv/generate" />
+    <SUITE FILE_PATH="coverage/data_generate$profile_data_generator.coverage" NAME="profile_data_generator Coverage Results" MODIFIED="1563774192900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gen/profile" />
+    <SUITE FILE_PATH="coverage/data_generate$item_data_generator.coverage" NAME="item_data_generator Coverage Results" MODIFIED="1563774828217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gen/item" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="601">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
+        <entry file="file://$PROJECT_DIR$/gen/item/item_data_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2445">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="597">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1552457952701" expanded="false" signature="403:432" ph="..." />
-                <marker date="1552457952701" expanded="false" signature="472:516" ph="..." />
-                <marker date="1552457952701" expanded="false" signature="714:832" ph="..." />
-                <marker date="1552457952701" expanded="false" signature="828:832" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/profile/profile_data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ids.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/event/event_data_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-660">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1199943126/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="3622" column="8" selection-start-line="3622" selection-start-column="8" selection-end-line="3622" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,17 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/pymysql/connections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18954">
+            <state>
               <caret line="726" selection-start-line="726" selection-end-line="726" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -81,6 +121,10 @@
       <find>time</find>
       <find>back</find>
       <find>project</find>
+      <find>provin</find>
+      <find>print(</find>
+      <find>prin</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -97,16 +141,20 @@
         <option value="$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py" />
         <option value="$PROJECT_DIR$/pandatv/config.py" />
         <option value="$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" />
+        <option value="$PROJECT_DIR$/ids.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/gen/event/event_data_generator.py" />
+        <option value="$PROJECT_DIR$/gen/profile/profile_data_generator.py" />
+        <option value="$PROJECT_DIR$/gen/item/item_data_generator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="769" />
-    <option name="y" value="422" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="-63" />
+    <option name="y" value="-1251" />
+    <option name="width" value="2015" />
+    <option name="height" value="1198" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -116,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,24 +174,37 @@
             <path>
               <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-generate" type="462c0819:PsiDirectoryNode" />
-              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-generate" type="462c0819:PsiDirectoryNode" />
-              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+              <item name=".crawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-generate" type="462c0819:PsiDirectoryNode" />
-              <item name="pandatv" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-generate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-generate" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -155,6 +215,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gen/.crawl" />
       <recent name="$PROJECT_DIR$/pandatv" />
     </key>
   </component>
@@ -170,7 +231,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandatv_data_generator">
+  <component name="RunManager" selected="Python.item_data_generator">
+    <configuration name="item_data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-generate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gen/item" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen/item/item_data_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pandatv_anchor_data_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-generate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,33 +320,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="profile_data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-generate" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gen/profile" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pandatv.PandatvCrawlerFacts.test_should_get_all_anchor&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen/profile/profile_data_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.pandatv_anchor_data_crawler" />
       <item itemvalue="Python.pandatv_data_generator" />
       <item itemvalue="Python.pandatv_user_data_generator" />
-      <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
+      <item itemvalue="Python.item_data_generator" />
+      <item itemvalue="Python.profile_data_generator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.item_data_generator" />
+        <item itemvalue="Python.profile_data_generator" />
         <item itemvalue="Python.pandatv_data_generator" />
         <item itemvalue="Python.pandatv_anchor_data_crawler" />
         <item itemvalue="Python.pandatv_user_data_generator" />
-        <item itemvalue="Python tests.Unittests for pandatv.PandatvCrawlerFacts.test_should_get_all_anchor" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +380,7 @@
       <workItem from="1548753250317" duration="1205000" />
       <workItem from="1552453746085" duration="557000" />
       <workItem from="1552457153491" duration="390000" />
+      <workItem from="1563765705327" duration="5038000" />
     </task>
     <servers />
   </component>
@@ -297,18 +390,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12648000" />
+    <option name="totallyTimeSpent" value="17686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="422" width="1440" height="877" extended-state="0" />
+    <frame x="-63" y="-1251" width="2015" height="1198" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24783862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829852" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24934725" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934684" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24931003" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,16 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pandatv.py" />
     <entry file="file://$PROJECT_DIR$/pandatv/config.py" />
-    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1542601498874" expanded="true" signature="305:307" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_user_data_generator.py" />
     <entry file="file:///usr/local/lib/python3.7/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -357,40 +441,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/random.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/random.py" />
+    <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py" />
+    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py" />
     <entry file="file:///usr/local/lib/python3.7/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18954">
+        <state>
           <caret line="726" selection-start-line="726" selection-end-line="726" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandatv/crawl/pandatv_anchor_data_crawler.py">
+    <entry file="file://$PROJECT_DIR$/gen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/faker/factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="512">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandatv/generate/pandatv_data_generator.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/faker/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2445">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="104">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="3622" column="8" selection-start-line="3622" selection-start-column="8" selection-end-line="3622" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1552457952701" expanded="false" signature="403:432" ph="..." />
-            <marker date="1552457952701" expanded="false" signature="472:516" ph="..." />
-            <marker date="1552457952701" expanded="false" signature="714:832" ph="..." />
-            <marker date="1552457952701" expanded="false" signature="828:832" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/event/event_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/profile/profile_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/item/item_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

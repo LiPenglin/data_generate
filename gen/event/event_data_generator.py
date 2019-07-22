@@ -1,28 +1,29 @@
-import hashlib
 import json
-import time
-from datetime import datetime as dt
-import pymysql
-import random
-
-import sys
 import os
+import sys
+import time
+import ids
+from datetime import datetime as dt
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 from config import *
 from faker import Faker
 
+
 factory = Faker("zh_CN")
+
 
 class Utils(object):
 
     @classmethod
     def get_lib(cls):
-        return LIBS[random.randint(0, len(LIBS)-1)]
+        return LIBS[random.randint(0, len(LIBS) - 1)]
 
     @classmethod
     def get_random_id(cls):
-        return factory.unix_time()
+        # return factory.unix_time()
+        return cls.get_random_item(ids.IDS)
 
     @classmethod
     def get_random_ts_md5_id(cls):
@@ -52,7 +53,7 @@ class Utils(object):
                 ANCHOR['r_id']: factory.numerify(),
                 ANCHOR['r_name']: factory.company(),
                 ANCHOR['label_e_name']: [factory.currency_name(), factory.currency_name()],
-                ANCHOR['label_c_name']:  [factory.currency_name(), factory.currency_name()],
+                ANCHOR['label_c_name']: [factory.currency_name(), factory.currency_name()],
                 ANCHOR['award_rank']: random.randint(0, 20000)
             }
             anchor_list.append(r)
@@ -63,9 +64,9 @@ class Utils(object):
         return random.randint(0, num)
 
     @classmethod
-    def get_random_anchor(cls, anchor_list):
-        anchor_count = len(anchor_list) - 1
-        return anchor_list[cls.get_random_num(anchor_count)]
+    def get_random_item(cls, item_list):
+        anchor_count = len(item_list) - 1
+        return item_list[cls.get_random_num(anchor_count)]
 
     @classmethod
     def write(cls, name, data):
@@ -122,39 +123,39 @@ def start():
         id_list.append(id)
         home_page_view = HomePageView(id)
         Utils.write('home_page_view', home_page_view)
-    print(len(id_list))
+    LOG.info(f"home page view. [len='{len(id_list)}']")
 
-    id_list = id_list[::7]
+    id_list = id_list[::3]
     for id in id_list:
-        anchor = Utils.get_random_anchor(anchor_list)
+        anchor = Utils.get_random_item(anchor_list)
         properties = {
             'r_id': str(anchor[ANCHOR['r_id']]),
             'r_name': anchor[ANCHOR['r_name']]
         }
         specific_room_view = SpecificRoomView(id, properties)
         Utils.write('specific_room_view', specific_room_view)
-    print(len(id_list))
+    LOG.info(f"specific room view. [len='{len(id_list)}']")
 
     id_list = id_list[::5]
     for id in id_list:
-        anchor = Utils.get_random_anchor(anchor_list)
+        anchor = Utils.get_random_item(anchor_list)
         properties = {
             'u_id': str(anchor[ANCHOR['u_id']])
         }
         follow_click = FollowClick(id, properties)
         Utils.write('follow_click', follow_click)
-    print(len(id_list))
+    LOG.info(f"follow click. [len='{len(id_list)}']")
 
-    id_list = id_list[::3]
+    id_list = id_list[::7]
     for id in id_list:
-        anchor = Utils.get_random_anchor(anchor_list)
+        anchor = Utils.get_random_item(anchor_list)
         properties = {
             'r_id': str(anchor[ANCHOR['r_id']]),
             'award_rank': anchor[ANCHOR['award_rank']]
         }
         first_pay = FirstPay(id, properties)
         Utils.write('first_pay', first_pay)
-    print(len(id_list))
+    LOG.info(f"first pay. [len='{len(id_list)}']")
 
 
 if __name__ == '__main__':
@@ -166,10 +167,10 @@ if __name__ == '__main__':
     tmp = input(f"input back day num (default 0 - {day}):")
     if tmp:
         BACK_DAY_NUM = int(tmp)
-        print(f'generate event data for {BACK_DAY_NUM}')
+        LOG.info(f'generate event data. [back day num="{BACK_DAY_NUM}"]')
         start()
     else:
         for i in range(day):
             BACK_DAY_NUM = i
-            print(f'generate event data for {BACK_DAY_NUM} ...')
+            LOG.info(f'generate event data. [back day num="{BACK_DAY_NUM}"]')
             start()
